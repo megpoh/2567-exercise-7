@@ -134,15 +134,19 @@ form a:hover {
 /*--------------------------------------------------------------
 1.5 - LISTS
 -------------------------------------------------------------- */
+
 dt, dd {
-	display: inline-block
+	display: inline-block;
 }
+
 dt {
 	font-weight:100;
-	width: 20px;
+	width: 20%;
 }
 dd {
 	font-weight: 600;
+	width: 60%;
+	margin-left: 18px;
 }
 /*--------------------------------------------------------------
 2.0 - MAIN MENU
@@ -377,14 +381,14 @@ figure {
 #services {
 	background-color:#218FB4;
 }
-#contact {
+footer {
 	background-color:#21b490;
 }
 /*--------------------------------------------------------------
 5.2 - TXT UTILITY
 -------------------------------------------------------------- */
 .txt-uppercase {
-	text-transform:uppercase;
+	text-transform: uppercase;
 }
 .txt-center {
 	text-align: center;
@@ -395,7 +399,7 @@ figure {
 .p-t-sm {
 	padding-top: 10px;
 }
-.p-t-md {
+header {
 	padding-top: 20px;
 }
 .p-t-lg {
@@ -404,15 +408,15 @@ figure {
 .p-b-lg {
 	padding-bottom: 50px;
 }
-.p-b-xl {
+#services {
 	padding-bottom: 100px;
 }
-.m-t-0 {
+
+footer div div.row:nth-child(2) p {
 	margin-top: 0;
-}
-.m-b-lg {
 	margin-bottom: 50px;
 }
+
 /*--------------------------------------------------------------
 5.4 - ALIGNMENTS
 -------------------------------------------------------------- */
@@ -432,6 +436,102 @@ figure {
 
 
 @media screen and (max-width: 768px) {
+
 	
 	
+	/*--------------------------------------------------------------
+1.0 - TYPOGRAPHY
+-------------------------------------------------------------- */
+	
+	h1 {
+		font-size: 3.5rem;
+		line-height: 50px;
+	}
+	
+	#services p.lead, footer h3, footer h4, footer h4+p {
+		text-align: center;
+	}
+	
+	#services p.lead+p {
+		text-align: left;
+	}
+
+/*--------------------------------------------------------------
+3.0 - SITE STRUCTURE
+-------------------------------------------------------------- */
+
+	.wrapper {
+		width: 98%;
+	}
+	
+	nav.col-3-5 {
+		width: 90%;
+	}
+	
+	header .col-1-2, #services .col-1-4, footer section.col-1-2, #map, footer div.p-t-lg, footer section div.col-1-2 {
+		width: 100%;
+	}
+
+/*--------------------------------------------------------------
+5.3 - SPACING
+-------------------------------------------------------------- */
+	nav li {
+		padding: 0;
+	}
+	
+	nav {
+		margin-top: -62px;
+	}
+	
+	h2 {
+		margin-top: 0;
+	}
+	
+	#services p.lead {
+		margin-bottom: 40px;
+	}
+	
+	.col-1-4 {
+		padding-right: 0;
+	}
+	
+	h2, h3 {
+		margin: 0;
+	}
+	
+	div#map {
+		margin: 0;
+	}
+
+	footer section div.col-1-2 {
+		padding: 0;
+	}
+	
+	footer div div.row:nth-child(2) p {
+		margin-bottom: 30px;
+	}
+
+	footer dd {
+		margin-left: 0;
+	}
+	
+	dl {
+		margin-left: 110px;
+	}
+	
+	footer div.p-t-lg {
+		padding-top: 0;
+	}
+	
+	footer.p-b-lg {
+		padding-bottom: 0;
+	}
+
+	
+	
+	
+	
+	
+	
+		
 }

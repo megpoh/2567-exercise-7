@@ -26,7 +26,7 @@
 <body>
 
 <!-- ===========HERO & NAV=============== -->
-<header class="p-t-md" id="hero">
+<header id="hero">
 	<div class="wrapper">
     	<div class="row">
             <figure class="col-1-6">       
@@ -50,21 +50,19 @@
 
 <!-- ===========OUR SERVICES=============== -->
 
-<section class="p-t-lg p-b-xl" id="services">
+<section class="p-t-lg" id="services">
 	<header class="wrapper">
     	<div class="row txt-center">
         	<div class="col-9-12 center-block">
             	<h2 class=" txt-uppercase">Our Services</h2>
                 <p class="lead txt-uppercase">Lorem ipsum dolor sit amet, usu <span>nemore oporteat</span> lobortis ad, eos soleat verear cotidieque id. </p>
-                <p>Vis te veri tritani, at quodsi commune has, probo maiestatis ei has. Molestie suscipiantur concludaturque cu has, nam ne omnesque antiopam, & indoctum complectitur pro ad. Ea cum diam malorum vivendum, vel quod commodo repudiandae et. </p>
+                <p>Vis te veri tritani, at quodsi commune has, probo maiestatis ei has. Molestie suscipiantur concludaturque cu has, nam ne omnesque antiopam, &amp; indoctum complectitur pro ad. Ea cum diam malorum vivendum, vel quod commodo repudiandae et. </p>
             </div>
         </div>
         <div class="row txt-center">
         	<section class="col-1-4">
             	<div>
-                    <header>
-                        <h3 class="txt-uppercase">Researching</h3>
-                    </header>
+                    <h3 class="txt-uppercase">Researching</h3>
                     <p>Molestie suscipiantur concludaturque cu has, nam ne omnesque antiopam, indoctum complectitur pro ad. Ea cum diam malorum vivendum, vel quod commodo repudiandae et.</p>
                 </div>
             </section>
@@ -76,9 +74,7 @@
             </section>
             <section class="col-1-4">
             	<div>
-                    <header>
-                        <h3 class="txt-uppercase">Development</h3>
-                    </header>
+                    <h3 class="txt-uppercase">Development</h3>
                     <p>Molestie suscipiantur concludaturque cu has, nam ne omnesque antiopam, indoctum complectitur pro ad. Ea cum diam malorum vivendum, vel quod commodo repudiandae et.</p>
                 </div>
             </section>
@@ -91,10 +87,8 @@
         </div>
     </header>
 </section>
-
-
-<footer class="p-t-lg p-b-lg" id="contact">
-	<header class="wrapper">
+<footer class="p-t-lg p-b-lg">
+	<div class="wrapper">
     	<div class="row txt-center">
         	<div class="col-9-12 center-block">
             	<h2 class=" txt-uppercase">Contact Us</h2>
@@ -107,15 +101,15 @@
                     <div class="col-1-2">
                     	<h3>Address</h3>
                         <h4>Zendesk</h4>
-                        <p class="m-t-0 m-b-lg">123 Fake Street<br/>
+                        <p>123 Fake Street<br/>
                         Fakersvill, FA 12345-1234</p>
                         <dl>
                         	<dt>Phone:</dt>
-                            <dd>123.123.1234</dd><br/>
+                            <dd>123.123.1234</dd>
                             <dt>Fax:</dt>
-                            <dd>123.123.1234</dd><br/>
+                            <dd>123.123.1234</dd>
                             <dt>Email:</dt>
-                            <dd>hello@zendesk.com</dd><br/>
+                            <dd>hello@zendesk.com</dd>
                             <dt>Skype:</dt>
                             <dd>Zendesk</dd>
                         </dl>
@@ -127,12 +121,12 @@
             <div class="col-1-2 p-t-lg">
                 <form class="row">
                 	<div class="col-1-2">
-                    <label>First & Last Name:</label>
-                    <input  name="name" type="text" value="" placeholder="Name"/>
+                    	<label for="name">First &amp; Last Name:</label>
+                    	<input  type="text" name="Name" id="name" placeholder="Name"/>
                     </div>
                     <div class="col-1-2">
-                        <label>Your email:</label>
-                        <input name="email" type="text" placeholder="Email" />
+                        <label for="email">Your email:</label>
+                        <input type="text" name="email" id="email" placeholder="Email" />
                     </div>
                     <div class="col-1">
                         <label for="message">Your message:</label>
@@ -144,7 +138,7 @@
                 </form>
             </div>
         </div>
-    </header>
+    </div>
 </footer>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> 
